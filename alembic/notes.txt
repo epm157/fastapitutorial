@@ -1,0 +1,32 @@
+
+
+
+select users.id, count(posts.title) as user_post_count from posts right join users on posts.owner_id = users.id group by users.id;
+
+select posts.id, count(votes.post_id) from posts left join votes on posts.id = votes.post_id group by posts.id;
+
+
+
+set -o allexport; source /home/ehsan/.env; set +o allexport
+
+gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app --bind 0.0.0.0:8000
+
+
+
+
+
+
+[Unit]
+Description=fastapi service
+After=network.target
+
+[Service]
+User=ehsan
+Group=ehsan
+WorkingDirectory=/home/ehsan/app/src/app/
+Environment="PATH=/home/ehsan/app/venv/bin"
+EnvironmentFile=/home/ehsan/.env
+ExecStart=/home/ehsan/app/venv/bin/gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app --bind 0.0.0.0:8000
+
+[Install]
+WantedBy=multi-user.target
