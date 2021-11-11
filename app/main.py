@@ -35,7 +35,7 @@ app.include_router(vote.router)
 
 @app.get('/')
 async def root():
-    return {'message': 'Hello World!!'}
+    return {'message': 'Hello World!'}
 
 
 #fetch("http://localhost:8000/").then(res => res.json()).then(console.log)
