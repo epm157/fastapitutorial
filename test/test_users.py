@@ -22,7 +22,7 @@ def test_create_user(client):
     assert res.status_code == 201
 
 
-def test_login_user(client):
+def test_login_user(client, test_user):
     res = client.post('/login', data={'username': 'a@ale.de', 'password': 'pass'})
     print(res.json())
     assert res.status_code == 200

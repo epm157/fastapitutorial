@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa3b85c-0693-4209-ba2d-cd76f33afb38" name="Changes" comment="add database">
+    <list default="true" id="4aa3b85c-0693-4209-ba2d-cd76f33afb38" name="Changes" comment="Do not drop tables in test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/database.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +99,7 @@
       <workItem from="1636797747894" duration="1391000" />
       <workItem from="1636827612803" duration="1060000" />
       <workItem from="1636880479083" duration="1383000" />
-      <workItem from="1636905010133" duration="1066000" />
+      <workItem from="1636905010133" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary="update requirements.txt">
       <created>1636448631144</created>
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636905915386</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Do not drop tables in test">
+      <created>1636906195779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636906195779</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +183,8 @@
     <MESSAGE value="Install dependencies" />
     <MESSAGE value="add environment variables" />
     <MESSAGE value="add database" />
-    <option name="LAST_COMMIT_MESSAGE" value="add database" />
+    <MESSAGE value="Do not drop tables in test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Do not drop tables in test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

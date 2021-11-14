@@ -7,7 +7,6 @@ from app.config import settings
 from app import schemas, models
 from app.database import get_db, Base
 from app.main import app
-#from app.models import *
 import uuid
 
 from app.oauth2 import create_access_token
@@ -25,7 +24,7 @@ TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engin
 #Base.metadata.create_all(bind=engine)
 
 
-Base = declarative_base()
+#Base = declarative_base()
 
 # Dependency
 # def override_get_db():
@@ -37,15 +36,16 @@ Base = declarative_base()
 #
 # app.dependency_overrides[get_db] = override_get_db
 
-@pytest.fixture()
+@pytest.fixture
 def session():
-    #Base.metadata.drop_all(bind=engine)
+    Base.metadata.drop_all(bind=engine)
     Base.metadata.create_all(bind=engine)
     db = TestingSessionLocal()
     try:
         yield db
     finally:
         db.close()
+
 
 @pytest.fixture
 def client(session):
@@ -61,7 +61,7 @@ def client(session):
 
 @pytest.fixture
 def test_user(client):
-    user_data = {'email': f'a{uuid.uuid4().hex}@ale.de', 'password': 'pass'}
+    user_data = {'email': 'a@ale.de', 'password': 'pass'}
     res = client.post('/users/', json=user_data)
     print(res.json())
     assert res.status_code == 201
