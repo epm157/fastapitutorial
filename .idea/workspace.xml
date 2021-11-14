@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa3b85c-0693-4209-ba2d-cd76f33afb38" name="Changes" comment="Add some more tests">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4aa3b85c-0693-4209-ba2d-cd76f33afb38" name="Changes" comment="Add Github actions file">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-deploy.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <workItem from="1636736439395" duration="2533000" />
       <workItem from="1636797747894" duration="1391000" />
       <workItem from="1636827612803" duration="1060000" />
-      <workItem from="1636880479083" duration="859000" />
+      <workItem from="1636880479083" duration="1129000" />
     </task>
     <task id="LOCAL-00001" summary="update requirements.txt">
       <created>1636448631144</created>
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636880499819</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Github actions file">
+      <created>1636883322578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636883322578</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +148,8 @@
     <MESSAGE value="update requirements.txt" />
     <MESSAGE value="start testing" />
     <MESSAGE value="Add some more tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some more tests" />
+    <MESSAGE value="Add Github actions file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Github actions file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
