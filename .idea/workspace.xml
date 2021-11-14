@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa3b85c-0693-4209-ba2d-cd76f33afb38" name="Changes" comment="update requirements.txt">
-      <change afterPath="$PROJECT_DIR$/Docker-Compose-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-Compose-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_users.py" afterDir="false" />
+    <list default="true" id="4aa3b85c-0693-4209-ba2d-cd76f33afb38" name="Changes" comment="start testing">
+      <change afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_posts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,11 @@
       <workItem from="1636535413680" duration="2492000" />
       <workItem from="1636568350739" duration="1013000" />
       <workItem from="1636615189827" duration="859000" />
-      <workItem from="1636649305832" duration="1746000" />
+      <workItem from="1636649305832" duration="1956000" />
+      <workItem from="1636704947131" duration="2347000" />
+      <workItem from="1636736439395" duration="2533000" />
+      <workItem from="1636797747894" duration="1391000" />
+      <workItem from="1636827612803" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="update requirements.txt">
       <created>1636448631144</created>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636448631144</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="start testing">
+      <created>1636665546561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636665546561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="update requirements.txt" />
+    <MESSAGE value="start testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="start testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
