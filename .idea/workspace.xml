@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa3b85c-0693-4209-ba2d-cd76f33afb38" name="Changes" comment="add environment variables">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4aa3b85c-0693-4209-ba2d-cd76f33afb38" name="Changes" comment="add database">
+      <change beforePath="$PROJECT_DIR$/test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1636797747894" duration="1391000" />
       <workItem from="1636827612803" duration="1060000" />
       <workItem from="1636880479083" duration="1383000" />
-      <workItem from="1636905010133" duration="845000" />
+      <workItem from="1636905010133" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="update requirements.txt">
       <created>1636448631144</created>
@@ -142,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636905575510</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add database">
+      <created>1636905915386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636905915386</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +173,8 @@
     <MESSAGE value="Add Github actions file" />
     <MESSAGE value="Install dependencies" />
     <MESSAGE value="add environment variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="add environment variables" />
+    <MESSAGE value="add database" />
+    <option name="LAST_COMMIT_MESSAGE" value="add database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

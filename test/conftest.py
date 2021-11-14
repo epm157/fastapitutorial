@@ -39,7 +39,7 @@ Base = declarative_base()
 
 @pytest.fixture()
 def session():
-    Base.metadata.drop_all(bind=engine)
+    #Base.metadata.drop_all(bind=engine)
     Base.metadata.create_all(bind=engine)
     db = TestingSessionLocal()
     try:
