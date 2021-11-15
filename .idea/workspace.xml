@@ -96,7 +96,7 @@
       <workItem from="1636827612803" duration="1060000" />
       <workItem from="1636880479083" duration="1383000" />
       <workItem from="1636905010133" duration="3689000" />
-      <workItem from="1636954638970" duration="1242000" />
+      <workItem from="1636954638970" duration="1774000" />
     </task>
     <task id="LOCAL-00001" summary="update requirements.txt">
       <created>1636448631144</created>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636955654647</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Change Heroku repository">
+      <created>1636956050198</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1636956050198</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
