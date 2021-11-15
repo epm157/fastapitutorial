@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa3b85c-0693-4209-ba2d-cd76f33afb38" name="Changes" comment="fix yml file">
+    <list default="true" id="4aa3b85c-0693-4209-ba2d-cd76f33afb38" name="Changes" comment="Add Heroku to Github Actions">
       <change beforePath="$PROJECT_DIR$/.github/workflows/build-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <workItem from="1636827612803" duration="1060000" />
       <workItem from="1636880479083" duration="1383000" />
       <workItem from="1636905010133" duration="3689000" />
-      <workItem from="1636954638970" duration="289000" />
+      <workItem from="1636954638970" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="update requirements.txt">
       <created>1636448631144</created>
@@ -206,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636908445302</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add Heroku to Github Actions">
+      <created>1636955028674</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1636955028674</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +244,8 @@
     <MESSAGE value="Fix tests and DB creation" />
     <MESSAGE value="Build docker hub image" />
     <MESSAGE value="fix yml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix yml file" />
+    <MESSAGE value="Add Heroku to Github Actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Heroku to Github Actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
